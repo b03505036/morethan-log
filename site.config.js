@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Yimin Ou",
     image: "/profile.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "software developer",
-    bio: "!go gentle into that good night.",
+    bio: "do not go gentle into that good night",
     email: "ouyimin19@gmail.com",
     linkedin: "yi-min-ou-9b4533186/",
     github: "b03505036",
