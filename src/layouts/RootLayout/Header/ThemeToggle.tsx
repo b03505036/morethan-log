@@ -9,13 +9,12 @@ const ThemeToggle: React.FC<Props> = () => {
   const [scheme, setScheme] = useScheme()
 
   const handleClick = () => {
-    // setScheme(scheme === "light" ? "dark" : "light")
-    setScheme(scheme === "dark" ? "light" : "dark")
+    setScheme(scheme === "light" ? "dark" : "light")
   }
 
   return (
     <StyledWrapper onClick={handleClick}>
-      <Emoji>{scheme === "dark" ? "🌙" : "☀️"}</Emoji>
+      <Emoji>{scheme === "light" ? "☀️" : "🌙"}</Emoji>
     </StyledWrapper>
   )
 }
