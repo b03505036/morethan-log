@@ -48,5 +48,5 @@ export type TCategories = {
   [category: string]: number
 }
 
-// export type ThemeType = "dark" | "light"
-export type ThemeType = "light" | "dark"
+export type ThemeType = "dark" | "light"
+// export type ThemeType = "light" | "dark"
